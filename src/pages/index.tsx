@@ -58,7 +58,7 @@ export default function Home() {
             <p style={{width:'100px',padding:'15px 15px',textAlign:'center',marginTop:'10px',backgroundColor:'black',color:'white',boxShadow:'0px 0px 3px black',fontSize:'15px',fontFamily:" 'Merriweather', serif; "}}>explore</p>
           </div>
         {width>750?<div style={{display:'flex',justifyContent:'space-around',alignItems:'center',width:width>750?'65%':'300%',height:width>750?'100%':'550px',overflow:'hidden',position:width>750?"static":'absolute',bottom:'0px',left:'0px'}}>
-                <div style={{width:width>750?'30%':'100%',margin:width>750?"":"0px auto",height:'100%',display:'flex',alignItems:'center',backgroundColor:'rgb(251, 249, 249)',border:'0px 0px 3px black',borderRadius:'5px',justifyContent:'space-around',flexDirection:'column'}}>
+                <div style={{width:'30%',height:'100%',display:'flex',alignItems:'center',backgroundColor:'rgb(251, 249, 249)',border:'0px 0px 3px black',borderRadius:'5px',justifyContent:'space-around',flexDirection:'column'}}>
                   <Image style={{height:'88%',width:width>750?'90%':'60%',objectFit:'cover'}} src={imgOne} alt='landing images'/>
                   <p style={{fontFamily:" 'Abril Fatface', cursive; ",fontSize:'18px',fontWeight:'bolder',letterSpacing:'1.5px',textAlign:'center'}}>TRAININGS</p>
                 </div>
